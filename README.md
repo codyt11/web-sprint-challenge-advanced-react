@@ -29,15 +29,25 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. Explain how to build stateful class components.
+      CCR class component render
 
 2. Describe the different phases of the component lifecycle.
+      constructor- creates component for state data for the initial render.
+      render- tells React to return some piece of DOM.
+      *componentDidMount- gets called as render method is called the FIRST TIME. and then what...
+      *componentDidUpdate - invoked immediately after update occurs.??
+      *componentWillUnmount - used to cancel network req, or invalidating functions.
 
 3. Demonstrate an understanding of class component lifecycle methods.
 
 4. Define stateful logic.
+    logic that is build into a component. such as handleChange and onSubmit
 
 5. Describe how to test a React component with React Testing Library.
-
+  AAA- 
+  Arrange- Basically set up action that we want to run.
+  ACT- the testing the actual data such as text returns.
+  Assert- the expect to happen of testing.
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
 ## Instructions
